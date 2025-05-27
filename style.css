@@ -1,0 +1,60 @@
+
+:root {
+    --color-primary: #333;
+    --color-secondary: #666;
+    --bg-primary: #f5f5f5;
+    --bg-secondary: #e5e5e5;
+    --bg-main:radial-gradient(192.85% 232.6% at 131.25% 114.57%, rgb(26, 4, 39) 0%, rgb(93, 14, 141) 100%);
+
+}
+@font-face {
+    font-family: 'gtflex';
+    src: url(/GTFlexaExtended-Bold.woff2);
+}
+@font-face {
+    font-family: 'gtflex1';
+    src: url(/PeakRounded-Regular.woff2);
+}
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+      background: var(--bg-main);
+}
+*{
+    color: white;
+    
+}
+  .imgbottle {
+            position: absolute;
+            top: 14%;
+            right: 0;
+            /* background: url(/bearyfine/E_0000.webp.png); */
+            width: 20vw;
+        }
+
+
+.navelement{
+    padding: 20px;
+    border-radius: 0 0 15px 15px;
+    border: 1px solid #fffefe;
+}
+.cart {
+    padding: 10px;
+     border-radius: 20px 0 0 20px;
+     position: relative;
+     right: -30px;
+   border: 1px solid #ffffff;
+}
+.HeroContent h1{
+    font-family: 'gtflex'; 
+font-size: 168px;
+font-weight: 900;
+line-height:152px
+}
+#animationCanvas {
+    
+     width: 800px;   
+    /* height: 500px;   */
+    display: block;
+    margin: 0 auto; 
+}

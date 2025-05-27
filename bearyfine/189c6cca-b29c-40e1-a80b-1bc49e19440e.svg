@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="text-container" width="100%" height="48vw" viewBox="0 0 1920 650" preserveAspectRatio="xMidYMid meet">
+    <path id="text-curve" d="M1 506.863C252.301 566.914 748.5 629.499 902.594 507.717C1088.29 360.958 1092 179.5 1351.04 51.3227C1464.65 -4.89217 1587.35 -24.4095 1921 70.2558" fill="none"></path>
+    <text y="40" font-size="6vw" font-family="GT Flexa Bold" fill="white">
+      <textPath id="text-path" href="#text-curve" startOffset="2151.12890625">
+        Folic Acid . Glucosamine Chondroitin . PMS . Quercetin with Bromelain . Sea Moss Gummies with Apple Cider Vinegar . Sea Moss Gummies with Elderberry
+      </textPath>
+    </text>
+  </svg>
