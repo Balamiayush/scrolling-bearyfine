@@ -17,6 +17,7 @@
 }
 body{
     overflow-x: hidden;
+    width: 100%;
     overflow-y: hidden;
       background: var(--bg-main);
 }
@@ -24,13 +25,7 @@ body{
     color: white;
     
 }
-  .imgbottle {
-            position: absolute;
-            top: 14%;
-            right: 0;
-            /* background: url(/bearyfine/E_0000.webp.png); */
-            width: 20vw;
-        }
+ 
 
 
 .navelement{
@@ -52,9 +47,21 @@ font-weight: 900;
 line-height:152px
 }
 #animationCanvas {
-    
-     width: 800px;   
-    /* height: 500px;   */
+    width: 1000px;
+    height: 600px;
     display: block;
-    margin: 0 auto; 
+    position: fixed;
+    z-index: 100;
+    object-fit: contain; 
+    right: -20%;
+      will-change: transform;
+}
+.elemnts{
+        border: 2px solid #fffefe;
+         display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.elemnts img{
+    width: 5%;
 }

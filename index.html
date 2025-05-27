@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="w-full  ">
-    <div class="hero w-full h-screen ">
+<body class="w-full  relative overflow-hidden">
+    <div class="hero w-full h-screen  ">
         <div class="navbar flex  justify-between items-center px-5 font-semibold ">
             <div class="logo w-[10vw]">
                 <img src="https://bearyfine.com/cdn/shop/t/6/assets/glucosamine-logo.webp?v=5972923285246236831725124378"
@@ -27,7 +31,8 @@
                 <p>(0)</p>
             </div>
         </div>
-        <canvas id="animationCanvas" class=" absolute z-[100] object-cover "></canvas>
+
+        <canvas id="animationCanvas" class="imgbottle"></canvas>
     
 
         <div class="HeroContent flex flex-col justify-center items-center w-full h-full ">
@@ -37,9 +42,16 @@
             </h1>
         </div>
     </div>
-    <div class="page2 w-full h-screen"></div>
-    <div class="page3 w-full h-screen"></div>
-    <div class="page4 w-full h-screen"></div>
+    <div class="page2 w-full h-screen relative">
+        <div class=" flex  justify-between items-center  h-full w-[70%] mx-auto relative top-[40%] z-[100]">
+            <i class="ri-arrow-left-line text-2xl cursor-pointer hover:cursor-pointer  "></i>
+            <i class="ri-arrow-right-line text-2xl cursor-pointer hover:cursor-pointer "></i>
+        </div>
+        <div class="elemnts w-[60%]  h-[5vw] absolute bottom-[5%] rounded-full left-1/2 transform -translate-x-1/2">
+            
+        </div>
+        
+    </div>
 </body>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
