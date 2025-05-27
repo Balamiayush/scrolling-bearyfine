@@ -60,6 +60,8 @@
                 document.body.style.background = getRandomColor();
                 currentImageIndex = (currentImageIndex + 1) % imgs.length;
                 updateImageSet(currentImageIndex);
+              updateCanvasFrame();
+                preloadImages();
             });
 
             function updateImageSet(index) {
@@ -111,6 +113,7 @@
                 ctx.imageSmoothingEnabled = true;
                 ctx.imageSmoothingQuality = 'high';
                 ctx.drawImage(img, x, y, width, height);
+        
             }
 
             function preloadImages() {
@@ -148,7 +151,7 @@
                         trigger: "body",
                         start: "top top",
                         end: "bottom bottom",
-                        scrub: 1.2,
+                        scrub: 0.8,
                         onUpdate: self => {
                             config.scrollProgress = self.progress;
                             updateCanvasFrame();
@@ -178,7 +181,7 @@
                     scrollTrigger: {
                         start: "top top",
                         end: "bottom bottom",
-                        scrub: 1.5,
+                        scrub: 1,
                         ease: "sine.inOut",
                     }
                 })

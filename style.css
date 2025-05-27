@@ -1,69 +1,74 @@
 :root {
-  --bg-main: radial-gradient(192.85% 232.6% at 131.25% 114.57%, rgb(26, 4, 39) 0%, rgb(93, 14, 141) 100%);
-  --bg-pink: #FFB6F8;
-  --bg-blue: #007aff;
-  --bg-red: #B12B26;
-  --bg-darkBlue: #004080;
-  --bg-orange: #E08A1E;
+    --bg-main: radial-gradient(192.85% 232.6% at 131.25% 114.57%, rgb(26, 4, 39) 0%, rgb(93, 14, 141) 100%);
+    --bg-pink: #FFB6F8;
+    --bg-blue: #007aff;
+    --bg-red: #B12B26;
+    --bg-darkBlue: #004080;
+    --bg-orange: #E08A1E;
 }
 
 body {
-  overflow-x: hidden;
-  width: 100%;
-  background: var(--bg-main);
-  transition: background 0.5s ease; /* Smooth transition */
+    overflow-x: hidden;
+    width: 100%;
+    background: var(--bg-main);
+    transition: background 0.5s ease; /* Smooth transition */
 }
 
 @font-face {
     font-family: 'gtflex';
     src: url(/GTFlexaExtended-Bold.woff2);
 }
+
 @font-face {
     font-family: 'gtflex1';
     src: url(/PeakRounded-Regular.woff2);
 }
 
-*{
+* {
     color: white;
-    
 }
- 
 
-
-.navelement{
+.navelement {
     padding: 20px;
     border-radius: 0 0 15px 15px;
     border: 1px solid #fffefe;
 }
+
 .cart {
     padding: 10px;
-     border-radius: 20px 0 0 20px;
-     position: relative;
-     right: -30px;
-   border: 1px solid #ffffff;
+    border-radius: 20px 0 0 20px;
+    position: relative;
+    right: -30px;
+    border: 1px solid #ffffff;
 }
-.HeroContent h1{
-    font-family: 'gtflex'; 
-font-size: 168px;
-font-weight: 900;
-line-height:152px
+
+.HeroContent h1 {
+    font-family: 'gtflex';
+    font-size: 168px;
+    font-weight: 900;
+    line-height: 152px;
 }
+
 #animationCanvas {
     width: 1000px;
     height: 600px;
     display: block;
     position: fixed;
     z-index: 100;
-    object-fit: contain; 
+    object-fit: contain;
     right: -20%;
-      will-change: transform;
+ transform-style: preserve-3d;
+    transform-origin: center;
+
 }
-.elemnts{
-        border: 2px solid #fffefe;
-         display: flex;
+
+.elemnts {
+    border: 2px solid #fffefe;
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-.elemnts img{
+
+.elemnts img {
     width: 5%;
 }
