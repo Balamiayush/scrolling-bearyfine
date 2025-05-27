@@ -50,13 +50,14 @@ body {
 }
 
 #animationCanvas {
-    width: 1000px;
-    height: 600px;
+     width: 80vw;   /* 80% of viewport width */
+  height: 60vh;  /* 60% of viewport height */
+  margin: 0 auto; /* Center the canvas */
+    right: -30%;
     display: block;
     position: fixed;
     z-index: 100;
     object-fit: contain;
-    right: -20%;
  transform-style: preserve-3d;
     transform-origin: center;
 
